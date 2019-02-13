@@ -2,5 +2,4 @@
 
 echo Copying AAB files...
 
-shopt -s globstar
-cp **/*.aab $APPCENTER_OUTPUT_DIRECTORY
+cp build/outputs/bundle/release/*.aab $APPCENTER_OUTPUT_DIRECTORY
